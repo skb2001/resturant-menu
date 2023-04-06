@@ -1,6 +1,7 @@
-const Menu = [{
+const Menu = [
+  {
     id: 1,
-    image: "./images/maggi.jpg",
+    image: "images/maggi.jpg",
     name: "maggi",
     category: "breakfast",
     price: "12₹",
@@ -10,7 +11,7 @@ const Menu = [{
 
   {
     id: 2,
-    image: "./images/allupakoida.jpg",
+    image: "images/allupakoida.jpg",
     name: "allu pakoida",
     category: "evening",
     price: "20₹",
@@ -19,7 +20,7 @@ const Menu = [{
   },
   {
     id: 3,
-    image: "./images/corn.jpg",
+    image: "images/corn.jpg",
     name: "corn",
     category: "breakfast",
     price: "10₹",
@@ -28,7 +29,7 @@ const Menu = [{
   },
   {
     id: 4,
-    image: "./images/chola.jpg",
+    image: "../images/chola.jpg",
     name: "chola",
     category: "lunch",
     price: "50₹",
@@ -37,7 +38,7 @@ const Menu = [{
   },
   {
     id: 5,
-    image: "./images/pizza.jpg",
+    image: "../images/pizza.jpg",
     name: "pizza",
     category: "evening",
     price: "80₹",
@@ -46,7 +47,7 @@ const Menu = [{
   },
   {
     id: 6,
-    image: "./images/nonvegthali.jpg",
+    image: "../images/nonvegthali.jpg",
     name: "Non-Veg Thali",
     category: "dinner",
     price: "180₹",
@@ -55,7 +56,7 @@ const Menu = [{
   },
   {
     id: 7,
-    image: "./images/sweet.jpg",
+    image: "../images/sweet.jpg",
     name: "Sweets",
     category: "dinner",
     price: "60₹",
@@ -64,7 +65,7 @@ const Menu = [{
   },
   {
     id: 8,
-    image: "./images/rajmarice.jpg",
+    image: "../images/rajmarice.jpg",
     name: "Rajma Rice",
     category: "lunch",
     price: "60₹",
@@ -81,4 +82,5 @@ const Menu = [{
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, at consectetur totam voluptatibus quibusdam iusto. Accusamus quas, soluta ipsam autem eius necessitatibus fugiat in . ",
   },
 ];
+
 export default Menu;
